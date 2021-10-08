@@ -2,7 +2,7 @@
 
 #### Endpoints
 
-`https://BASE_NAME/api/partners/v1`
+`https://BASE_NAME/partners/v1`
 
 #### Rate limitation
 
@@ -37,20 +37,10 @@ Available Locales
 
 #### Token abilities
 
-Token abilities determines what you can read / write from the API
+Token abilities determines what you can read / write from the API.
 
-* `contacts:read`
-  * Validate contact existence by social security number
-  * Read basic contact information
-    * Customer number
-    * Social security number / Organization numbers
-    * Names
-    * Phone numbers
-    * Email addresses
-    * Delivery addresses
-    * Billing addresses
-* `invoices:read`
-  * List the latest 12 invoices
+Read more about [abilities](docs/abilities.md)
+
 
 #### Routes
 
