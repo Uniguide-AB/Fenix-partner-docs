@@ -46,13 +46,13 @@ Read more about [abilities](docs/abilities.md)
 
 Here are all the routes currently supported
 
-| URI                                   | Required token abilities        | Docs                          |
-| ------------------------------------- | ------------------------------- | ----------------------------- |
-| **Contacts**                          |                                 |                               |
-| `GET /contacts/{ssn}/by-ssn`          | `contacts:read`                 | [Read more](docs/contacts.md) |
-| `GET /contacts/{display_id}`          | `contacts:read`                 | [Read more](docs/contacts.md) |
-| `GET /contacts/{display_id}/invoices` | `contacts:read` `invoices:read` | [Read more](docs/contacts.md) |
-| **TBA**                               |                                 |                               |
+| URI                                   | Required token abilities | Docs                          |
+| ------------------------------------- | ------------------------ | ----------------------------- |
+| **Contacts**                          |                          |                               |
+| `GET /contacts/{ssn}/by-ssn`          | `contacts:read`          | [Read more](docs/contacts.md) |
+| `GET /contacts/{display_id}`          | `contacts:read`          | [Read more](docs/contacts.md) |
+| `GET /contacts/{display_id}/invoices` | `invoices:read`          | [Read more](docs/contacts.md) |
+| `GET /contacts/{display_id}/todos`    | `todo:read`              | [Read more](docs/contacts.md) |
 
 
 

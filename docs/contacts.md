@@ -95,5 +95,5 @@
 | ---------------- | ----------------------------------------------------------- |
 | `billing_method` | `postal` `kivra` `e_invoice` `ag` `pdf_e_mail` `pdf_manual` |
 | `type`           | `credit` `debit`                                            |
-| `status`         | `active` `completed`                                        |
+| `status`         | `active` `completed` `pending`                              |
 
