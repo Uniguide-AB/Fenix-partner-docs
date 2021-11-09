@@ -51,8 +51,11 @@ Here are all the routes currently supported
 | **Contacts**                          |                          |                               |
 | `GET /contacts/{ssn}/by-ssn`          | `contacts:read`          | [Read more](docs/contacts.md) |
 | `GET /contacts/{display_id}`          | `contacts:read`          | [Read more](docs/contacts.md) |
+| **Contact invoices**                  |                          |                               |
 | `GET /contacts/{display_id}/invoices` | `invoices:read`          | [Read more](docs/contacts.md) |
-| `GET /contacts/{display_id}/todos`    | `todo:read`              | [Read more](docs/contacts.md) |
+| **Contact "Todos"**                   |                          |                               |
+| `GET /contacts/{display_id}/todos`    | `todo:read`              | TBA                           |
+| `POST /contacts/{display_id}/todos`   | `todo:write`             | TBA                           |
 
 
 
