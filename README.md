@@ -24,7 +24,7 @@ Our API can return 8 different status codes
 | 500  | Server error                    | _Exception message_ |
 
 #### Authentication
-All requests _must_ have an header named `Authentication` containing an valid token provided by the system owner.
+All requests _must_ have an header named `Authorization` containing an valid token provided by the system owner.
 
 #### Locale
 
