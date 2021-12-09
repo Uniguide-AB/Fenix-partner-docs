@@ -1,31 +1,31 @@
 # Contact resource
 
 
-| Field                                    | Type              | Remarks                                          |
-| ---------------------------------------- | ----------------- | ------------------------------------------------ |
-| `id`                                     | `number`          | Unique DB id                                     |
-| `display_id`                             | `string`          | Can differ from `id`                             |
-| `type`                                   | `string`          | `private` `organisation` _Yes, with s and not z_ |
-| `active_category_junctions_fqdn_as_text` | `string`          | Summary of what categories are used              |
-| `ssn`                                    | `string` / `null` | Personal or organization number                  |
-| `first_name`                             | `string` / `null` | Full name if organization                        |
-| `last_name`                              | `string` / `null` |                                                  |
-| `email`                                  | `string` / `null` |                                                  |
-| `billing_email`                          | `string` / `null` |                                                  |
-| `phone1`                                 | `string` / `null` |                                                  |
-| `phone2`                                 | `string` / `null` |                                                  |
-| `delivery_address`                       | `string` / `null` |                                                  |
-| `delivery_co`                            | `string` / `null` |                                                  |
-| `delivery_postal_code`                   | `string` / `null` |                                                  |
-| `delivery_postal_city`                   | `string` / `null` |                                                  |
-| `billing_address`                        | `string` / `null` |                                                  |
-| `billing_co`                             | `string` / `null` |                                                  |
-| `billing_postal_code`                    | `string` / `null` |                                                  |
-| `billing_postal_city`                    | `string` / `null` |                                                  |
-| `is_active`                              | `boolean`         |                                                  |
-| `activated_at`                           | `string` / `null` | zulu                                             |
-| `inactivated_at`                         | `string` / `null` | zulu                                             |
-| `inactivated_reason`                     | `string` / `null` |                                                  |
+| Field                                    | Type              | Remarks                                             |
+| ---------------------------------------- | ----------------- | --------------------------------------------------- |
+| `id`                                     | `number`          | Unique DB id                                        |
+| `display_id`                             | `string`          | Can differ from `id`                                |
+| `type`                                   | `string`          | `private` `organisation` _Yes, with s and not z_    |
+| `active_category_junctions_fqdn_as_text` | `string`          | Summary of what categories are used                 |
+| `ssn`                                    | `string` / `null` | Personal or organization number                     |
+| `first_name`                             | `string` / `null` | Full name if organization                           |
+| `last_name`                              | `string` / `null` |                                                     |
+| `email`                                  | `string` / `null` |                                                     |
+| `billing_email`                          | `string` / `null` |                                                     |
+| `phone1`                                 | `string` / `null` |                                                     |
+| `phone2`                                 | `string` / `null` |                                                     |
+| `delivery_address`                       | `string` / `null` |                                                     |
+| `delivery_co`                            | `string` / `null` |                                                     |
+| `delivery_postal_code`                   | `string` / `null` |                                                     |
+| `delivery_postal_city`                   | `string` / `null` |                                                     |
+| `billing_address`                        | `string` / `null` |                                                     |
+| `billing_co`                             | `string` / `null` |                                                     |
+| `billing_postal_code`                    | `string` / `null` |                                                     |
+| `billing_postal_city`                    | `string` / `null` |                                                     |
+| `is_active`                              | `boolean`         | If the contact is considered active                 |
+| `activated_at`                           | `string` / `null` | zulu-date, when the contact was first activated at  |
+| `inactivated_at`                         | `string` / `null` | zulu-date, when the contact was last inactivated at |
+| `inactivated_reason`                     | `string` / `null` | The human written reason for the inactivation       |
 
 *Example response*
 
