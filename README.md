@@ -54,8 +54,8 @@ Here are all the routes currently supported
 | **Contact invoices**                  |                          |                               |
 | `GET /contacts/{display_id}/invoices` | `invoices:read`          | [Read more](docs/contacts.md) |
 | **Contact "Todos"**                   |                          |                               |
-| `GET /contacts/{display_id}/todos`    | `todo:read`              | TBA                           |
-| `POST /contacts/{display_id}/todos`   | `todo:write`             | TBA                           |
+| `GET /contacts/{display_id}/todos`    | `todo:read`              | [Read more](docs/todos.md)    |
+| `POST /contacts/{display_id}/todos`   | `todo:write`             | [Read more](docs/todos.md)    |
 
 
 
