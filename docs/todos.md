@@ -10,6 +10,6 @@ Collection of: [Todo Resource](resources/todo.md)
 
 `https://base-url.com/partners/v1/contacts/1/todo`
 
-Request: 
+Request: [Todo Request](requests/todo.md)
 
 Returns: [Todo Resource](resources/todo.md)
